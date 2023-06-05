@@ -1,5 +1,5 @@
 {
-    "homepage": "http://theahmadchand.github.io/potfolio-react-ts",
+    "homepage": "https://theahmadchand.github.io/portfolio",
     "name": "react-potfolio",
     "version": "1.0.0",
     "main": "index.js",
@@ -15,7 +15,7 @@
         "dev:debug": "npm run debug -- --env mode=development",
         "prod:debug": "npm run debug -- --env mode=production",
         "predeploy": "npm run prod",
-        "deploy": "gh-pages -d -- npm run prod"
+        "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
         "@babel/core": "^7.22.1",
